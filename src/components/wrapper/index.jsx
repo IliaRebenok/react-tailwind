@@ -2,7 +2,9 @@ import React from 'react'
 
 const Wrapper = (props) => {
     return (
-        <div className='container mx-auto py-4 px-2 min-h-screen '>{props.children}</div>
+        <div className='mx-auto py-4 px-2 container min-h-screen '>
+            {props.children}
+        </div>
     )
 }
 

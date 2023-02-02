@@ -7,7 +7,7 @@ import { COMPANY, FEATURES } from './constants';
 
 const Header = () => {
     return (
-        <header className='flex items-center'>
+        <header className='flex w-full items-center'>
             <LogoIcon />
             <nav className='flex space-x-6 ml-8 items-center'>
                 <NavItem text='Feature'>
