@@ -6,8 +6,8 @@ module.exports = {
   ],
   theme: {
     screens: {
-      'xl' : '1440 px',
-      'md' : '1024 px'
+      'xl' : '1280px',
+      //'md' : '1024px'
     },
     extend: {
       colors: {
